@@ -90,28 +90,30 @@
 <p>硬件环境：<br>联网的计算机一台</p>
 <p>软件环境：<br>Windows or Linux</p>
 <p>实验步骤与内容：</p>
-<p>1.搭建Hexo环境<br>安装node.js 和git，如图安装成功<br><img src="https://img-blog.csdnimg.cn/e4bea0cb289847f2a84811d11295bdb9.png" alt="在这里插入图片描述"></p>
-<p>之后用和node.js一起安装的npm包管理器下载cnpm（npm下载hexo框架速度较慢）<br> <img src="https://img-blog.csdnimg.cn/2a17097aa7694ee3a3679ac454b900a1.png" alt="在这里插入图片描述"></p>
-<p>如图安装成功<br> <img src="https://img-blog.csdnimg.cn/9cba9f1b73f74a01b698ea6cf113ba25.png" alt="在这里插入图片描述"></p>
-<p>用cnpm下载hexo<br> <img src="https://img-blog.csdnimg.cn/0bcfb428889e4dddba682f7863c5ff55.png" alt="在这里插入图片描述"></p>
-<p>查看hexo版本，验证安装是否成功<br> <img src="https://img-blog.csdnimg.cn/118d8ca5feea4963bca4a409397dc900.png" alt="在这里插入图片描述"></p>
-<p>2.创建个人博客<br>新建一个blog文件夹并进入<br> <img src="https://img-blog.csdnimg.cn/104b98eb3cb247329ed593b9ad0b754a.png" alt="在这里插入图片描述"></p>
-<p>用hexo init命令初始化该文件夹为博客框架<br> <img src="https://img-blog.csdnimg.cn/af7b540620164005ae6bdbd73bea7bab.png" alt="在这里插入图片描述"></p>
-<p>启动博客<br> <img src="https://img-blog.csdnimg.cn/6a29c3c2d41e4c32a19260f0a99efca8.png" alt="在这里插入图片描述"></p>
-<p>在本地localhost:4000即可访问创建的博客<br> <img src="https://img-blog.csdnimg.cn/09c3935725e3495cb97b01ef90efb35c.png" alt="在这里插入图片描述"></p>
-<p>3.将博客部署到github<br>登陆github，新建仓库<br> <img src="https://img-blog.csdnimg.cn/27ee89e762ad4e1285cae91c146a843d.png" alt="在这里插入图片描述"></p>
-<p>安装部署hexo的插件<br> <img src="https://img-blog.csdnimg.cn/6022c66143eb4a22bb7a51fb00724dc8.png" alt="在这里插入图片描述"></p>
-<p>修改blog文件夹中的_config.yml文件<img src="https://img-blog.csdnimg.cn/551d4a7c7fed4832a932d10d15c8a1e5.png" alt="在这里插入图片描述"><br>修改如下<br> <img src="https://img-blog.csdnimg.cn/f28d03a341f447189919486c89e638dd.png" alt="在这里插入图片描述"></p>
-<p>用http上传，不出意料不行（之前用gitee上传时也无法连接，不知道电脑哪里出问题了），尝试很多种方法也没办法成功部署<img src="https://img-blog.csdnimg.cn/beda18ad43a445009158cfdb703e866c.png" alt="在这里插入图片描述"></p>
-<p>改用ssh上传，首先将_config.yml文件中的<a target="_blank" rel="noopener" href="https://github.com/xxxx%E4%BF%AE%E6%94%B9%E4%B8%BAgit@github.com:xxxx">https://github.com/xxxx修改为git@github.com:xxxx</a><br>然后获取ssh key公钥内容：<img src="https://img-blog.csdnimg.cn/d30dac6bae6c408fa707e8c70837c712.png" alt="在这里插入图片描述"></p>
-<p>复制，在github的settings中new ssh key，粘贴到key文本框中，点击add创建成功：<img src="https://img-blog.csdnimg.cn/64688389467543b9b2e13ab2e02e45b8.png" alt="在这里插入图片描述"></p>
-<p>然后回到git bash，输入hexo d：<br>部署成功，用仓库名访问：<br> <img src="https://img-blog.csdnimg.cn/1f2a0b7534004b7f883ee6b4e16aa369.png" alt="在这里插入图片描述"></p>
+<p>1.搭建Hexo环境<br>安装node.js 和git，如图安装成功<img src="D:\0本学期课程\云计算\blog\source\imgs\3-1.png"></p>
+<p>之后用和node.js一起安装的npm包管理器下载cnpm（npm下载hexo框架速度较慢）<br><img src="D:\0本学期课程\云计算\blog\source\imgs\3-2.png"></p>
+<p>如图安装成功<br><img src="D:\0本学期课程\云计算\blog\source\imgs\3-3.png"></p>
+<p>用cnpm下载hexo<br><img src="D:\0本学期课程\云计算\blog\source\imgs\3-4.png"></p>
+<p>查看hexo版本，验证安装是否成功<br><img src="D:\0本学期课程\云计算\blog\source\imgs\3-5.png"></p>
+<p>2.创建个人博客<br>新建一个blog文件夹并进入<br><img src="D:\0本学期课程\云计算\blog\source\imgs\3-6.png"></p>
+<p>用hexo init命令初始化该文件夹为博客框架<br><img src="D:\0本学期课程\云计算\blog\source\imgs\3-7.png"></p>
+<p>启动博客<br><img src="D:\0本学期课程\云计算\blog\source\imgs\3-8.png"></p>
+<p>在本地localhost:4000即可访问创建的博客<br><img src="D:\0本学期课程\云计算\blog\source\imgs\3-9.png"></p>
+<p>3.将博客部署到github<br>登陆github，新建仓库<br><img src="D:\0本学期课程\云计算\blog\source\imgs\3-10.png"></p>
+<p>安装部署hexo的插件<br><img src="D:\0本学期课程\云计算\blog\source\imgs\3-11.png"></p>
+<p>修改blog文件夹中的_config.yml文件<img src="D:\0本学期课程\云计算\blog\source\imgs\3-12.png"><br>修改如下<img src="D:\0本学期课程\云计算\blog\source\imgs\3-13.png"></p>
+<p>用http上传，不出意料不行（之前用gitee上传时也无法连接，不知道电脑哪里出问题了），尝试很多种方法也没办法成功部署<img src="D:\0本学期课程\云计算\blog\source\imgs\3-14.png"></p>
+<p>改用ssh上传，首先将_config.yml文件中的<a target="_blank" rel="noopener" href="https://github.com/xxxx%E4%BF%AE%E6%94%B9%E4%B8%BAgit@github.com:xxxx">https://github.com/xxxx修改为git@github.com:xxxx</a><br>然后获取ssh key公钥内容：<img src="D:\0本学期课程\云计算\blog\source\imgs\3-15.png"></p>
+<p>复制，在github的settings中new ssh key，粘贴到key文本框中，点击add创建成功：<img src="D:\0本学期课程\云计算\blog\source\imgs\3-16.png"></p>
+<p>然后回到git bash，输入hexo d：</p>
+<p><img src="D:\0本学期课程\云计算\blog\source\imgs\3-17.png"></p>
+<p>部署成功，用仓库名访问：<img src="D:\0本学期课程\云计算\blog\source\imgs\3-18.png"></p>
 <p>结论分析与体会：<br>Hexo是一个基于node.js快速生成静态博客的开源框架，通过命令可以部署到github等页面，让我们不用编写代码就可以搭建属于自己的个人博客网站，体现了云应用的强大和便捷之处。<br>同时通过这个实验加强了对git命令和网站部署的理解，还拥有了一个属于自己的博客网站，便于我们时刻记录自己的学习心得。</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2023/03/21/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%20%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E4%B8%8E%E6%8A%80%E6%9C%AF%E5%AD%A6%E9%99%A2%20%E4%BA%91%E8%AE%A1%E7%AE%97%E6%8A%80%E6%9C%AF%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/" data-id="clfi6yctd0001t4u7ev50fk33" data-title="" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2023/03/21/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%20%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E4%B8%8E%E6%8A%80%E6%9C%AF%E5%AD%A6%E9%99%A2%20%E4%BA%91%E8%AE%A1%E7%AE%97%E6%8A%80%E6%9C%AF%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/" data-id="clfi8h3x60001kcu786be2m3a" data-title="" class="article-share-link">Share</a>
       
       
       
@@ -162,7 +164,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2023/03/14/hello-world/" data-id="clfi6yct30000t4u7hdp93sbh" data-title="Hello World" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2023/03/14/hello-world/" data-id="clfi8h3x00000kcu79q5rftcx" data-title="Hello World" class="article-share-link">Share</a>
       
       
       
